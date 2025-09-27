@@ -1,8 +1,6 @@
 # IPL-Winning-Team-Prediction
 Predicts cricket match winners using machine learning on historical match data.
 
-# IPL Win Predictor
-
 [Live Demo](#) [View Predictor](#) [GitHub Repo](#) [IPL Win Predictor](#) [license](#) ![MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Python 3.9](https://img.shields.io/badge/Python-3.9-blue.svg)
 ![Logistic Regression](https://img.shields.io/badge/Model-Logistic%20Regression-blue.svg)
@@ -22,7 +20,7 @@ IPL Win Predictor utilizes logistic regression for insightful probability analys
 
 ## Demo Preview
 
-![IPL Win Predictor Preview](preview.png)
+![IPL Win Predictor Preview](demo.png)
 
 ---
 
