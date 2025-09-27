@@ -1,102 +1,88 @@
 # IPL-Winning-Team-Prediction
 Predicts cricket match winners using machine learning on historical match data.
 
-[Live Demo](#) [View Predictor](#) [GitHub Repo](#) [IPL Win Predictor](#) [license](#) ![MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+[Live Demo](https://share.streamlit.io/) [View Predictor](https://share.streamlit.io/) [GitHub Repo](https://github.com/ShruthaShreya/IPL-Winning-Team-Prediction/tree/main) [IPL Win Predictor](https://github.com/ShruthaShreya/IPL-Winning-Team-Prediction/tree/main) [license MIT](https://github.com/ShruthaShreya/IPL-Winning-Team-Prediction/blob/main/LICENSE)
+
 ![Python 3.9](https://img.shields.io/badge/Python-3.9-blue.svg)
-![Logistic Regression](https://img.shields.io/badge/Model-Logistic%20Regression-blue.svg)
+![Logistic Regression](https://img.shields.io/badge/Logistic%20Regression-Model-green.svg)
 ![NumPy 1.19](https://img.shields.io/badge/NumPy-1.19-blue.svg)
 ![pandas 1.2](https://img.shields.io/badge/pandas-1.2-blue.svg)
 ![Streamlit 0.80](https://img.shields.io/badge/Streamlit-0.80-blue.svg)
 
-Welcome to the IPL Win Predictor — an innovative machine learning project designed to estimate a team's chances of winning an ongoing IPL match through logistic regression and real-time data!
+Welcome to the IPL Win Predictor project! This tool uses a logistic regression-based approach to estimate the likelihood of a team winning an IPL cricket match based on ongoing match conditions. Enjoy making predictions backed by match data and stats.
+
+## About This Project
+
+The IPL Win Predictor harnesses the logistic regression model to estimate real-time IPL match win probabilities using match data, team performance, and player stats.
+
+## Project Preview
+
+![IPL Win Predictor App Screenshot](demo.png)
 
 ---
 
-## Overview
+## Features
 
-IPL Win Predictor utilizes logistic regression for insightful probability analysis, gauging a team’s likelihood of winning based on current match context, team dynamics, and individual player contributions.
-
----
-
-## Demo Preview
-
-![IPL Win Predictor Preview](demo.png)
+- **Real-Time Predictions:** Instantly displays win chances as match events change.
+- **Interactive Interface:** Explore scenarios with an easy-to-use Streamlit UI.
+- **Customizable Inputs:** Change the teams, score, overs, targets, and more on the fly.
+- **Hosted Deployment:** Access online using Streamlit Cloud.
 
 ---
 
-## Project Highlights
+## Usage
 
-[Live Demo](#) [View Predictor](#)
-
-### Key Features
-
-- **Live Match Analytics:** Instantly assess win probabilities as a match unfolds.
-- **User-Friendly UI:** Built with Streamlit, the app offers an interactive dashboard for quick scenario simulation.
-- **Flexible Match Inputs:** Tweak match details and select different teams to compare various possible outcomes.
-- **Cloud Accessible:** The app is deployed on Streamlit Cloud for accessible sharing and usage.
+To use the predictor:
+- Choose who is batting and bowling.
+- Enter the city, current runs, overs, wickets, and target score.
+- The model will output a probability for the batting team's win chances.
 
 ---
 
-## How To Use
+## Technologies Used
 
-For predictions, enter these details in the interface:
-
-- **Batting Team:** Select the team currently playing their innings.
-- **Bowling Team:** Choose the team handling the bowling.
-- **City:** Pick the venue where the game is taking place.
-- **Runs:** Provide the present score of the batting side.
-- **Overs Completed:** Specify the number of completed overs.
-- **Wickets:** List the count of wickets fallen.
-- **Target Runs:** Enter the chase or total runs set by the first innings.
-
-Based on your input, the system will output the calculated win probability for the batting side.
-
----
-
-## Technologies
-
-This solution integrates the following technologies:
+This project leverages the following:
 
 - [Python](https://www.python.org/)
-- [Logistic Regression](https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)
+- [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 - [NumPy](https://numpy.org/)
 - [pandas](https://pandas.pydata.org/)
 - [Streamlit](https://streamlit.io/)
 
 ---
 
-## Setup Instructions
+## Installation
 
-To launch the app on your own device, follow the steps below:
+To run the project locally:
 
-1. Fetch a local copy of the repository:
+1. Clone the repository:
     ```
-    git clone https://github.com/rajatrawal/ipl-win-predictor.git
+    git clone https://github.com/ShruthaShreya/IPL-Winning-Team-Prediction.git
     ```
-2. Move into the project directory:
+2. Enter the directory:
     ```
-    cd ipl-win-predictor
+    cd IPL-Winning-Team-Prediction
     ```
-3. Install the Python dependencies:
+3. Install dependencies:
     ```
     pip install -r requirements.txt
     ```
-4. Start the Streamlit application:
+4. Start the Streamlit app:
     ```
     streamlit run app.py
     ```
-5. Open the suggested local link in your browser to interact with the Win Predictor.
+5. Open the provided local URL in a browser.
 
 ---
 
-## Confidence in Predictions
+## Prediction Confidence
 
-Leverage this tool to enhance your IPL match insights with statistics-driven probability outputs. Visit the [Live Demo](#) to begin analyzing cricket matches in a data-centric way.
+Use IPL Win Predictor to add confidence to your cricket analytics, getting objective match insights every time.
 
 ---
 
-## Contributions
+## Contribute
 
-If you would like to submit changes, add features, or suggest improvements, please open a pull request or file an issue using the project's GitHub page.
+Feedback, suggestions, and contributions are welcome. Open a pull request or an issue via [GitHub](https://github.com/ShruthaShreya/IPL-Winning-Team-Prediction/tree/main).
 
-Many thanks for checking out IPL Win Predictor — hope it adds an edge to your cricket predictions! 🏏✨
+Thank you for trying out IPL Win Predictor. Hope it improves your data-driven match predictions!
