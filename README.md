@@ -1,8 +1,6 @@
 # IPL-Winning-Team-Prediction
 Predicts cricket match winners using machine learning on historical match data.
 
-[Live Demo](https://share.streamlit.io/) [View Predictor](https://share.streamlit.io/) [GitHub Repo](https://github.com/ShruthaShreya/IPL-Winning-Team-Prediction/tree/main) [IPL Win Predictor](https://github.com/ShruthaShreya/IPL-Winning-Team-Prediction/tree/main) [license MIT](https://github.com/ShruthaShreya/IPL-Winning-Team-Prediction/blob/main/LICENSE)
-
 ![Python 3.9](https://img.shields.io/badge/Python-3.9-blue.svg)
 ![Logistic Regression](https://img.shields.io/badge/Logistic%20Regression-Model-green.svg)
 ![NumPy 1.19](https://img.shields.io/badge/NumPy-1.19-blue.svg)
